@@ -1,6 +1,9 @@
+# declaring variable and converting them to numbers since the input will be in string format
 number1 = float(input("Enter first number: "))
 number2 = float(input("Enter second number: "))
 operation = input("Enter operation (+, -, *, /): ")
+
+#performing the operation based on user input
 
 if operation == "+":
     print(number1 + number2)
